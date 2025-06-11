@@ -1,0 +1,22 @@
+
+    body { 
+        font-family: Arial; 
+        text-align: center; 
+        background-color:antiquewhite; 
+    };
+    .equipo {
+         display: inline-block;
+          margin: 20px; 
+          vertical-align: top;
+     };
+    .pokemon {
+         margin: 10px;
+     };
+    .resultados, .dados {
+         margin-top: 20px;
+     };
+    button:disabled { 
+        opacity: 0.5;
+        cursor: not-allowed; 
+    };
+  
