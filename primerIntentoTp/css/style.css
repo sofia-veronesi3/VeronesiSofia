@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    align-items: center;
+}
+
+.equipos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5vh;
+}
+
+.ataque {
+    color: red;
+}
+
+.defensa {
+    color: green;
+}
+
+.ataque_grupal{
+    color: rgb(245, 107, 107);
+}
+
+.defensa_grupal {
+    color: greenyellow;
+}
+
+.equipo{
+    display: flex;
+    flex-direction: row;
+    margin: 10vh;
+}
+
+.grupoA{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px white;
+    border-radius: 3vh;
+}
+
+.grupoB{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px white;
+    border-radius: 3vh;
+}
+
+.vs{
+    margin: 5vh;
+}
+
+.ganador{
+    color:rgb(245, 107, 107)
+}

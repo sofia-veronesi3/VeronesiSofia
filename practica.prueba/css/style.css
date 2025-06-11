@@ -1,0 +1,24 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+            text-align: center;
+    }
+h1 {
+            color: navy;
+            font-size: 50px;
+ }
+ p {
+            color: darkgreen;
+ }
+ button { /* Estilo para nuestro nuevo botón */
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #4CAF50; /* Verde */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+button:hover {
+            background-color: #45a049; /* Verde más oscuro al pasar el ratón */
+}

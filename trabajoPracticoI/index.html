@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enfrentamiento de Pokemones</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1><b> Enfrentamiento de Equipos Pokemón </b></h1>
+ 
+  <div class="contenedorEquipos">
+    <div class="equipos" id="equipo1">
+        <h2> Equipo 1 </h2>
+        <div class="pokemon" id="pokemonesEquipo1"></div>
+        <div class="dados">
+            <button id="dados1" onclick="tirarDados('1', tiradasEquipo1, 'tiradasEquipo1','dados1')"> Tirar dados </button>
+            <p id="tiradasEquipo1"></p>
+        </div>
+    </div>
+
+    <div class="vs"> VS </div>
+    
+
+    <div class="equipos" id="equipo2">
+        <h2> Equipo 2 </h2>
+        <div class="pokemon" id="pokemonesEquipo2"></div>
+        <div class="dados">
+            <button id="dados2" onclick="tirarDados('2', tiradasEquipo2, 'tiradasEquipo2','dados2')"> Tirar dados </button> 
+            <!--2 es el identificador del equipo que equipo es un parametro de la funcion, tiradasEquipo2  array tiradas, 'tiradasEquipo2' es idTiradasEquipo,'dados2' es idBotonDados-->
+            <p id="tiradasEquipo2"></p>
+        </div>
+    </div>
+  </div>   
+
+    <div>
+        <button id="inicioBatalla" disabled onclick="iniciarBatalla()"> Iniciar Batalla</button>
+        <div class="resultados" id="resultado"></div>
+    </div>
+</body>
+<script src="js/fn.js"></script>
+</html>
